@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.d8b9f938.js",
+    "main.js": "/portfolio/static/js/main.a3e404e6.js",
     "static/media/me.png": "/portfolio/static/media/me.a67e86a6840533f148d3.png",
     "static/media/ropaShop.png": "/portfolio/static/media/ropaShop.4bbe7a001c5611a1131f.png",
     "static/media/logo.png": "/portfolio/static/media/logo.1774eabc901dfb24b7a4.png",
@@ -13,9 +13,9 @@
     "static/media/mini.png": "/portfolio/static/media/mini.31705bb24db1c68211f9.png",
     "static/media/advice.png": "/portfolio/static/media/advice.7cc35135b9064e1e5ea8.png",
     "index.html": "/portfolio/index.html",
-    "main.d8b9f938.js.map": "/portfolio/static/js/main.d8b9f938.js.map"
+    "main.a3e404e6.js.map": "/portfolio/static/js/main.a3e404e6.js.map"
   },
   "entrypoints": [
-    "static/js/main.d8b9f938.js"
+    "static/js/main.a3e404e6.js"
   ]
 }
