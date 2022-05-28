@@ -1,21 +1,14 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.a3e404e6.js",
-    "static/media/me.png": "/portfolio/static/media/me.a67e86a6840533f148d3.png",
-    "static/media/ropaShop.png": "/portfolio/static/media/ropaShop.4bbe7a001c5611a1131f.png",
-    "static/media/logo.png": "/portfolio/static/media/logo.1774eabc901dfb24b7a4.png",
-    "static/media/catWiki.png": "/portfolio/static/media/catWiki.2bcf4421ec00d7deffd9.png",
-    "static/media/githubJobs.png": "/portfolio/static/media/githubJobs.cd8fb912d8b498132fab.png",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.cb0084058ea9171763fd.pdf",
-    "static/media/shoppingifyList.png": "/portfolio/static/media/shoppingifyList.01e926581389c7396e1f.png",
-    "static/media/battleship.png": "/portfolio/static/media/battleship.d681ce6c9e8f1f1560d5.png",
-    "static/media/calculator.png": "/portfolio/static/media/calculator.ab980ac9e40efcc55553.png",
-    "static/media/mini.png": "/portfolio/static/media/mini.31705bb24db1c68211f9.png",
-    "static/media/advice.png": "/portfolio/static/media/advice.7cc35135b9064e1e5ea8.png",
+    "main.js": "/portfolio/static/js/main.ca7f9f73.js",
+    "static/media/Weather.png": "/portfolio/static/media/Weather.ca06f7a5df693bf3b03b.png",
+    "static/media/Sneakers.png": "/portfolio/static/media/Sneakers.8e2c56375b40357a792d.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.64153d594e12579c37e5.png",
+    "static/media/this-portfolio.png": "/portfolio/static/media/this-portfolio.065126852349651bb8a2.png",
     "index.html": "/portfolio/index.html",
-    "main.a3e404e6.js.map": "/portfolio/static/js/main.a3e404e6.js.map"
+    "main.ca7f9f73.js.map": "/portfolio/static/js/main.ca7f9f73.js.map"
   },
   "entrypoints": [
-    "static/js/main.a3e404e6.js"
+    "static/js/main.ca7f9f73.js"
   ]
 }
