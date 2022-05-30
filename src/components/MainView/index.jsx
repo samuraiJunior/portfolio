@@ -54,7 +54,7 @@ import { motion } from 'framer-motion';
         <ButtonsContainer>
           <SeeProjects to='projects' spy='true' smooth='true' offset={-70} duration={500}>
             <span>
-              Проекты <MdArrowRightAlt size='32' />
+             Мои проекты <MdArrowRightAlt size='32' />
             </span>
           </SeeProjects>
 

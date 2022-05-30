@@ -1,11 +1,12 @@
 import React from 'react'
 import { SkillsContainer, SkillsItems } from './styles';
-import { DiJavascript1, DiReact, DiSass, DiGithubBadge } from 'react-icons/di';
+import { DiJavascript1, DiReact, DiSass } from 'react-icons/di';
 import { SiRedux, SiTypescript,SiMaterialui } from 'react-icons/si';
+import {FaGitAlt} from "react-icons/fa"
 
 const Skills = () => {
   const SIZE = '6rem';
-  const COLOR = 'white';
+  const COLOR = 'white'; 
   return (
     <SkillsContainer>
       <h1>
@@ -44,8 +45,8 @@ const Skills = () => {
         </div>
 
         <div>
-          <DiGithubBadge size={SIZE} color={COLOR} />
-          <span>GitHub</span>
+          <FaGitAlt size={SIZE} color={COLOR} />
+          <span>Git</span>
         </div>
       </SkillsItems>
     </SkillsContainer>

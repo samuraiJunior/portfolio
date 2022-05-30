@@ -12,6 +12,7 @@ import {
   SiGithub,
 } from 'react-icons/si';
 
+import {FaGitAlt} from "react-icons/fa"
 const SIZE = 50;
 
 export const TechsInfo = {
@@ -82,4 +83,11 @@ export const TechsInfo = {
     description:
       'GitHub is a web-based hosting service for version control using Git. It is often used to host source code for open source projects.',
   },
+  Git:{
+    name:"Git",
+    Icon:<FaGitAlt size={SIZE}/>,
+    link: 'https://git-scm.com/',
+    description:
+      'Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.',
+  }
 };

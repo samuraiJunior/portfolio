@@ -7,7 +7,7 @@ const Contact = () => {
       <AsideContact>
         <ContactInfo>
           <h3>
-           <span>Связаться</span> можно через
+           <span>Мои</span> контакты
           </h3>
 
           <span>Email</span>

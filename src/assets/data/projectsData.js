@@ -12,7 +12,7 @@ export const projectsData = [
     id: 1,
     title: 'Sneakers market',
     description:
-      'Удобный магазин кроссовок + футболоки в которому присуще все необходимые функции, а именно добавление/удаление из избранных и корзины, оформление и просмотр оформленного заказа',
+      'Удобный магазин одежды  которому присуще все необходимые функции:  добавление/удаление из избранных и корзины, оформление и просмотр оформленного заказа, поиск нужного товара',
     image: Sneakers,
     techInfo: [React, Redux, ReactRouter, JavaScript,Sass],
     preview: 'https://samuraijunior.github.io/Sneakers/',
@@ -22,7 +22,7 @@ export const projectsData = [
     id: 2,
     title: 'Weather app',
     description:
-      'Простое в использовании прилжение для того чтобы узнать погоду в любом Городе планеты! Используется OPEN-Weather API .',
+      'Простое в использовании прилжение для того чтобы узнать погоду в любом городе планеты! Используется OPEN-Weather API .',
     image: Weather,
     techInfo: [React, Redux, Sass, JavaScript],
     preview: 'https://samuraijunior.github.io/Weather-app/',
@@ -42,7 +42,7 @@ export const projectsData = [
     id: 4,
     title: 'This Portfolio',
     description:
-      ' На странице моего портфолио вы можете найти следующую информацию:кто я такой, мой опыт работы, каковы мои навыки. Стоит отметить, крассивые цветовые комбинации в этом портфолио',
+      ' На странице моего портфолио вы можете найти следующую информацию: кто я такой, каков мой опыт работы, каковы мои навыки. Стоит отметить, крассивые цветовые комбинации в этом портфолио',
     image: portfolio,
     techInfo: [React, StyledComponents,JavaScript,ReactRouter],
     preview: 'https://samuraijunior.github.io/portfoio/',
