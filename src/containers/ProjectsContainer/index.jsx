@@ -52,7 +52,7 @@ import { motion } from 'framer-motion';
         {projectsToDisplay.map((project) => (
           <ProjectInfo {...project} colorToUse={color} key={project.id} />
         ))}
-      </Container>
+      </Container> 
 
       <ShowAllButton to='/projects'>Показать еще</ShowAllButton>
     </StyledProjectsContainer>

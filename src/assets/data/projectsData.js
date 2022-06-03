@@ -24,7 +24,7 @@ export const projectsData = [
     description:
       'Простое в использовании прилжение для того чтобы узнать погоду в любом городе планеты! Используется OPEN-Weather API .',
     image: Weather,
-    techInfo: [React, Redux, Sass, JavaScript],
+    techInfo: [React, Redux, Sass, JavaScript,TypeScript],
     preview: 'https://samuraijunior.github.io/Weather-app/',
     repo: 'https://github.com/samuraiJunior/Weather-app',
   },
