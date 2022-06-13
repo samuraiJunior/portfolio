@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.f815058c.js",
-    "static/media/Weather.png": "/portfolio/static/media/Weather.ca06f7a5df693bf3b03b.png",
+    "main.js": "/portfolio/static/js/main.d1ee2fa5.js",
     "static/media/Sneakers.png": "/portfolio/static/media/Sneakers.8e2c56375b40357a792d.png",
+    "static/media/weather-app4.png": "/portfolio/static/media/weather-app4.a06ac402b92154aff7f3.png",
     "static/media/todo.png": "/portfolio/static/media/todo.64153d594e12579c37e5.png",
     "static/media/this-portfolio.png": "/portfolio/static/media/this-portfolio.065126852349651bb8a2.png",
     "index.html": "/portfolio/index.html",
-    "main.f815058c.js.map": "/portfolio/static/js/main.f815058c.js.map"
+    "main.d1ee2fa5.js.map": "/portfolio/static/js/main.d1ee2fa5.js.map"
   },
   "entrypoints": [
-    "static/js/main.f815058c.js"
+    "static/js/main.d1ee2fa5.js"
   ]
 }
