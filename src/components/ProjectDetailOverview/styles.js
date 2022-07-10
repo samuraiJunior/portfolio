@@ -23,8 +23,8 @@ export const Img = styled.img`
   width: calc(100% - 2rem);
   max-width: 766px;
   border-radius: 10px;
-  height: 100%;
   margin: 1rem 1rem 0 1rem;
+  max-height:374px;
 `;
 
 export const ProjectInfo = styled.div`

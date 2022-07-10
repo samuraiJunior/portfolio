@@ -4,12 +4,11 @@ import {
   SiStyledcomponents,
   SiReactrouter,
   SiJavascript,
-  SiHtml5,
+  SiMaterialui,
   SiSass,
   SiReact,
   SiTypescript,
-  SiCss3,
-  SiGithub,
+  SiNextdotjs
 } from 'react-icons/si';
 
 import {FaGitAlt} from "react-icons/fa"
@@ -20,74 +19,67 @@ export const TechsInfo = {
     name: 'React',
     Icon: <SiReact size={SIZE} />,
     link: 'https://es.reactjs.org/',
-    description: 'A JavaScript library for building user interfaces',
+    description: 'JavaScript-библиотека с открытым исходным кодом для разработки пользовательских интерфейсов. ',
   },
   Redux: {
     name: 'Redux',
     Icon: <SiRedux size={SIZE} />,
     link: 'https://es.redux.js.org/',
-    description: 'Redux is a predictable wrapper of JavaScript application state.',
+    description: 'библиотека для JavaScript, предназначенная для управления состоянием приложения.',
   },
   StyledComponents: {
     name: 'Styled Components',
     Icon: <SiStyledcomponents size={SIZE} />,
     link: 'https://styled-components.com/',
     description:
-      'Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress ',
+      'Styled Components — общеизвестная библиотека для стилизации приложений React. Она позволяет создавать пользовательские компоненты посредством написания самого CSS в JavaScript. ',
   },
   ReactRouter: {
     name: 'React Router',
     Icon: <SiReactrouter size={SIZE} />,
     link: 'https://reactrouter.com/',
     description:
-      'React Router v6 takes the best features from previous versions—and its sister project, Reach Router—in our smallest and most powerful package yet.',
+      'React Router это стандартная библиотека маршрутизации (routing) в React. Он хранит интерфейс приложения синхронизированным с URL на браузере.',
   },
   Sass: {
     name: 'Sass',
     Icon: <SiSass size={SIZE} />,
     link: 'https://sass-lang.com/',
     description:
-      'Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.',
+      'Sass — это метаязык на основе CSS, предназначенный для увеличения уровня абстракции CSS-кода и упрощения файлов каскадных таблиц стилей.',
   },
   JavaScript: {
     name: 'JavaScript',
     Icon: <SiJavascript size={SIZE} />,
     link: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
     description:
-      'JavaScript (JS) is a lightweight, interpreted or compiled just-in-time (just-in-time) programming language with first-class functions.',
-  },
-  HTML: {
-    name: 'HTML',
-    Icon: <SiHtml5 size={SIZE} />,
-    link: 'https://developer.mozilla.org/es/docs/Web/HTML',
-    description:
-      'HTML (HyperText Markup Language) is the most basic component of the Web. Defines the meaning and structure of web content.',
+      'JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили.',
   },
   TypeScript: {
     name: 'TypeScript',
     Icon: <SiTypescript size={SIZE} />,
     link: 'https://www.typescriptlang.org/',
-    description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
-  },
-  CSS3: {
-    name: 'CSS3',
-    Icon: <SiCss3 size={SIZE} />,
-    link: 'https://developer.mozilla.org/es/docs/Web/CSS',
-    description:
-      'CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.',
-  },
-  Github: {
-    name: 'Github',
-    Icon: <SiGithub size={SIZE} />,
-    link: 'https://github.com/',
-    description:
-      'GitHub is a web-based hosting service for version control using Git. It is often used to host source code for open source projects.',
+    description: 'TypeScript — язык программирования расширяющий возможности JavaScript. ',
   },
   Git:{
     name:"Git",
     Icon:<FaGitAlt size={SIZE}/>,
     link: 'https://git-scm.com/',
     description:
-      'Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.',
-  }
+      'Git — распределённая система управления версиями.',
+  },
+  Next:{
+    name:"Next.js",
+    Icon:<SiNextdotjs size={SIZE}/>,
+    link: 'https://nextjs.org/',
+    description:
+      'Next.js — открытый JavaScript фреймворк, созданный поверх React.js. Фреймворк  предназначен для отрисовки  React.js приложения на стороне сервера - SSR',
+  },
+  MUI:{
+    name:"Material-ui",
+    Icon:<SiMaterialui size={SIZE}/>,
+    link: ' https://mui.com/',
+    description:
+      'material-ui — reactJS фрэймворк, предоставляющий готовые google решения для быстрой и довольно простой web разработки',
+  },
 };

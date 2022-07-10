@@ -1,7 +1,7 @@
 import React from 'react'
 import { SkillsContainer, SkillsItems } from './styles';
 import { DiJavascript1, DiReact, DiSass } from 'react-icons/di';
-import { SiRedux, SiTypescript,SiMaterialui } from 'react-icons/si';
+import { SiRedux, SiTypescript,SiMaterialui,SiNextdotjs } from 'react-icons/si';
 import {FaGitAlt} from "react-icons/fa"
 
 const Skills = () => {
@@ -47,6 +47,10 @@ const Skills = () => {
         <div>
           <FaGitAlt size={SIZE} color={COLOR} />
           <span>Git</span>
+        </div>
+        <div>
+          <SiNextdotjs size={SIZE} color={COLOR}/>
+          <span>Next</span>
         </div>
       </SkillsItems>
     </SkillsContainer>
