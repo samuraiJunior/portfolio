@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   ProjectDetailOverviewContainer,
   Img,
@@ -7,17 +7,23 @@ import {
   Button,
   ButtonContainer,
   Description,
-} from './styles';
-import { GoRepo } from 'react-icons/go';
-import { AiOutlineLink } from 'react-icons/ai';
+} from "./styles";
+import { GoRepo } from "react-icons/go";
+import { AiOutlineLink } from "react-icons/ai";
 
- const ProjectDetailOverview = ({ title, preview, description, image, repo }) => {
-  const titleProject = title.split(' ');
+const ProjectDetailOverview = ({
+  title,
+  preview,
+  description,
+  image,
+  repo,
+}) => {
+  const titleProject = title.split(" ");
 
   return (
     <ProjectDetailOverviewContainer>
       <Img src={image} />
- 
+
       <ProjectInfo>
         <ProjectTitle>
           <h1>
@@ -25,11 +31,14 @@ import { AiOutlineLink } from 'react-icons/ai';
           </h1>
 
           <ButtonContainer>
-            <Button repo href={repo} target='_blank' rel='noreferrer'>
-              <span>Репозиторий</span> <GoRepo />
-            </Button>
-
-            <Button href={preview} target='_blank' rel='noreferrer'>
+            {repo ? (
+              <Button repo href={repo} target="_blank" rel="noreferrer">
+                <span>Репозиторий</span> <GoRepo />
+              </Button>
+            ) : (
+              ""
+            )}
+            <Button href={preview} target="_blank" rel="noreferrer">
               <span>Посетить </span>
               <AiOutlineLink />
             </Button>
@@ -43,4 +52,4 @@ import { AiOutlineLink } from 'react-icons/ai';
     </ProjectDetailOverviewContainer>
   );
 };
-export default ProjectDetailOverview
+export default ProjectDetailOverview;

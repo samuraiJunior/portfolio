@@ -1,7 +1,9 @@
 import React from 'react'
 import { SkillsContainer, SkillsItems } from './styles';
 import { DiJavascript1, DiReact, DiSass } from 'react-icons/di';
-import { SiRedux, SiTypescript,SiMaterialui,SiNextdotjs } from 'react-icons/si';
+import { SiRedux, SiTypescript,SiMaterialui,SiNextdotjs, SiVuedotjs, SiVuetify } from 'react-icons/si';
+import ElementPlus from '../../utils/TechIcons/ElemntPlus'
+import GrpcIcon from '../../utils/TechIcons/GrpcIcon'
 import {FaGitAlt} from "react-icons/fa"
 
 const Skills = () => {
@@ -33,7 +35,10 @@ const Skills = () => {
           <SiTypescript size={SIZE} color={COLOR} />
           <span>TypeScript</span>
         </div>
-
+        <div>
+          <SiVuedotjs size={SIZE} color={COLOR}/>
+          <span>Vue</span>
+        </div>
         <div>
           <SiMaterialui size={SIZE} color={COLOR} />
           <span>Material UI</span>
@@ -51,6 +56,18 @@ const Skills = () => {
         <div>
           <SiNextdotjs size={SIZE} color={COLOR}/>
           <span>Next</span>
+        </div>
+        <div>
+          <GrpcIcon size={SIZE} color={COLOR}/>
+          <span>GRPC-web</span>
+        </div>
+        <div>
+          <ElementPlus size={SIZE} color={COLOR}/>
+          <span>Element-plus</span>
+        </div>
+        <div>
+          <SiVuetify size={SIZE} color={COLOR}/>
+          <span>Vee-vulidate</span>
         </div>
       </SkillsItems>
     </SkillsContainer>

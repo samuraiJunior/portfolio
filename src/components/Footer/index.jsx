@@ -7,7 +7,6 @@ const Footer = () => {
     <FooterContainer>
       <Contact />
       <FooterButtonsContainer>
-        <span>@2022</span>
         {/*Добавить кнопки*/}
       </FooterButtonsContainer>
     </FooterContainer>
