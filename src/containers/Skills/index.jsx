@@ -8,7 +8,7 @@ import {FaGitAlt} from "react-icons/fa"
 
 const Skills = () => {
   const SIZE = '6rem';
-  const COLOR = 'white'; 
+  const COLOR = 'white';  
   return (
     <SkillsContainer>
       <h1>
