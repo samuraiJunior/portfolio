@@ -10,7 +10,7 @@ import  ProjectsContainer  from '../../containers/ProjectsContainer';
     <>
 
     {/*<Header />*/}
-      <MainView />
+      <MainView /> 
       <SectionContainer id='skills' bgColor='#212428'>
         <Skills />
       </SectionContainer>
