@@ -1,6 +1,6 @@
 import React from 'react';
 import { GlobalStyles } from '../styles/GlobalStyles';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import  Home  from '../pages/Home';
 import  Layout  from '../containers/Layout';
 import  Projects  from '../pages/Projects';

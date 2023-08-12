@@ -2,8 +2,8 @@ const ElementPlusIcon = ({size, color= 'white'}) => {
     return (
       <svg
         styles={"color: " + color}
-        width={size + "px"}
-        height={size + "px"}
+        width={size}
+        height={size}
         viewBox="0 0 1024 1024"
         xmlns="http://www.w3.org/2000/svg"
       >

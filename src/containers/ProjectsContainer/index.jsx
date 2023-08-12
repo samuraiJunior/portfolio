@@ -3,7 +3,6 @@ import {
   StyledProjectsContainer,
   Title,
   Container,
-  Description,
   ShowAllButton,
 } from './styles';
 import  ProjectInfo  from '../../components/ProjectInfo';

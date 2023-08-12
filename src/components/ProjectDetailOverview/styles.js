@@ -94,9 +94,15 @@ export const ProjectTitle = styled.div`
     span {
       color: #03bd9a;
     }
-    .petProjectFlag{
-      color: orange;
-      font-size: 21px
+    .projectFlag{
+      font-size: 21px;
+      &.pet{
+        color: orange;
+      }
+      &.real{
+        color: white;
+        filter: drop-shadow(rgb(3, 189, 154) 0px 0px 0.2rem);
+      }
     }
   }
 

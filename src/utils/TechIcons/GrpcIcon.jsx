@@ -1,8 +1,8 @@
 const GrpcIcon = ({size, color="white"}) => {
     return (
       <svg
-        width={size + "px"}
-        height={size + "px"}
+        width={size}
+        height={size}
         viewBox="0 0 512 208"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

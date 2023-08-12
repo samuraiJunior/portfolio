@@ -2,8 +2,8 @@ const TildaIcon = ({size, color="white"}) => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={size + "px"}
-        height={size + "px"}
+        width={size}
+        height={size}
         fill="none"
         viewBox="0 0 48 48"
         id="tilda"
