@@ -17,6 +17,7 @@ const ProjectDetailOverview = ({
   description,
   image,
   repo,
+  isPet
 }) => {
   const titleProject = title.split(" ");
 
@@ -27,7 +28,7 @@ const ProjectDetailOverview = ({
       <ProjectInfo>
         <ProjectTitle>
           <h1>
-            <span>{titleProject[0]}</span> {titleProject[1]}
+            <span>{titleProject[0]}</span> {titleProject[1]} <sup class="petProjectFlag">{isPet? 'PET' : '' }</sup>
           </h1>
 
           <ButtonContainer>

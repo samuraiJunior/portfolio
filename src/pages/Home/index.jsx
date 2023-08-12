@@ -1,5 +1,4 @@
-import React from 'react'
-import  Header  from '../../components/Header';
+import React from 'react';
 import  MainView  from '../../components/MainView';
 import  SectionContainer  from '../../containers/SectionContainer';
 import  Skills  from '../../containers/Skills';

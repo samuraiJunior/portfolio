@@ -94,6 +94,10 @@ export const ProjectTitle = styled.div`
     span {
       color: #03bd9a;
     }
+    .petProjectFlag{
+      color: orange;
+      font-size: 21px
+    }
   }
 
   @media (max-width: 768px) {

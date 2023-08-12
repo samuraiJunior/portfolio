@@ -66,6 +66,7 @@ export const projectsData = [
     techInfo: [React, Redux, ReactRouter, JavaScript, Sass],
     preview: "https://samuraijunior.github.io/Sneakers/",
     repo: "https://github.com/samuraiJunior/Sneakers",
+    isPet: true,
   },
   {
     id: 11,
@@ -76,6 +77,7 @@ export const projectsData = [
     techInfo: [Next, Redux, Sass, JavaScript, MUI],
     preview: "https://disney-clone-kappa.vercel.app/",
     repo: "https://github.com/samuraiJunior/disney-clone",
+    isPet: true,
   },
   {
     id: 23,
@@ -86,6 +88,7 @@ export const projectsData = [
     techInfo: [React, Redux, Sass, JavaScript],
     preview: "https://samuraijunior.github.io/weather/",
     repo: "https://github.com/samuraiJunior/weather",
+    isPet: true,
   },
   {
     id: 32,
@@ -96,15 +99,17 @@ export const projectsData = [
     techInfo: [React, Redux, Sass, TypeScript],
     preview: "https://samuraijunior.github.io/todo-app/",
     repo: "https://github.com/samuraiJunior/todo-app",
+    isPet: true,
   },
   {
     id: 49,
     title: "This Portfolio",
     description:
-      " На странице моего портфолио вы можете найти следующую информацию: кто я такой, каков мой опыт работы, каковы мои навыки. Стоит отметить, крассивые цветовые комбинации в этом портфолио.",
+      "На странице моего портфолио вы можете найти следующую информацию: кто я такой, каков мой опыт работы, каковы мои навыки. Стоит отметить, крассивые цветовые комбинации в этом портфолио.",
     image: portfolio,
     techInfo: [React, StyledComponents, JavaScript, ReactRouter],
     preview: "https://samuraijunior.github.io/portfolio/",
     repo: "https://github.com/samuraiJunior/portfolio",
+    isPet: true,
   },
 ];

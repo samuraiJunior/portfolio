@@ -22,7 +22,7 @@ import Helmet from 'react-helmet';
           <Span className='back' to='/'>
             <p>
               <BiArrowBack />
-              Back
+              Назад
             </p>
           </Span>
         </header>
