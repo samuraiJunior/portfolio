@@ -140,9 +140,14 @@ export const SeeProjects = styled(Link)`
 
 export const BoxSocial = styled.div`
   display: flex;
+  height: 100%;
+  a{
+  display: flex;
+  text-decoration: none;
+  }
 `;
 
-export const ButtonLinkedIn = styled.button`
+export const ButtonHH = styled.button`
   background: none;
   outline: none;
   border: 1px solid #505050;
@@ -158,8 +163,6 @@ export const ButtonIcons = styled.button`
   outline: none;
   border: 1px solid #505050;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;

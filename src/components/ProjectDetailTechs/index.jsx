@@ -8,9 +8,10 @@ import { Description, Title } from '../ProjectTechInfo/styles';
   return (
     <ProjectDetailTechsContainer>
       <Title>Используемые технологии</Title>
+      
       <Description>
         {techInfo.map((tech) => (
-          <TechItemComponent key={tech.id} TechItem={TechItem} {...tech} />
+          <TechItemComponent key={tech.name} TechItem={TechItem} {...tech} />
         ))}
       </Description>
     </ProjectDetailTechsContainer>

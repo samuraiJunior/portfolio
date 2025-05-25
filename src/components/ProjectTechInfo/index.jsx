@@ -3,7 +3,6 @@ import { TechInfoContainer, Description, TechItem, Title } from './styles';
 import  TechItemComponent  from '../TechItemComponent';
 
  const ProjectTechInfo = ({ techInfo }) => {
-  console.log(techInfo);
   return (
     <TechInfoContainer>
       <Title>Используемые технологии</Title>

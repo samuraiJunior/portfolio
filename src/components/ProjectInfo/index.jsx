@@ -3,19 +3,14 @@ import  ProjectMainInfo  from '../ProjectMainInfo';
 import  ProjectTechInfo  from '../ProjectTechInfo';
 import { StyledProjectInfo, Container } from './styles';
 
- const ProjectInfo = ({ title, description, image, techInfo, preview, id,colorToUse }) => {
+ const ProjectInfo = ({ techInfo, ...project }) => {
   
   return (
     <StyledProjectInfo>
       <Container>
         <ProjectTechInfo techInfo={techInfo} />
         <ProjectMainInfo
-          colorToUse={colorToUse}
-          title={title}
-          description={description}
-          image={image}
-          preview={preview}
-          id={id}
+          {...project}
         />
       </Container>
     </StyledProjectInfo>

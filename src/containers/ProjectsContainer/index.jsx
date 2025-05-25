@@ -29,7 +29,6 @@ import { motion } from 'framer-motion';
   const posiblesColors = ['#00b4d8', '#51ffafc2', '#ff7d00', '#ff0054'];
   const color=()=>{
    const colors=posiblesColors.splice(Math.random() * posiblesColors.length,1,)
-   //console.log(colors)
    return colors
   }
   return (

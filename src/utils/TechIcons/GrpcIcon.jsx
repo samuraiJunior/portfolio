@@ -17,8 +17,8 @@ const GrpcIcon = ({size, color="white"}) => {
             y2="100%"
             id="linearGradient-1"
           >
-            <stop stop-color={color} offset="0%"></stop>
-            <stop stop-color={color} offset="100%"></stop>
+            <stop stopColor={color} offset="0%"></stop>
+            <stop stopColor={color} offset="100%"></stop>
           </linearGradient>
           <linearGradient
             x1="100%"
@@ -27,8 +27,8 @@ const GrpcIcon = ({size, color="white"}) => {
             y2="100%"
             id="linearGradient-2"
           >
-            <stop stop-color={color} offset="0%"></stop>
-            <stop stop-color={color} offset="100%"></stop>
+            <stop stopColor={color} offset="0%"></stop>
+            <stop stopColor={color} offset="100%"></stop>
           </linearGradient>
         </defs>
         <g>

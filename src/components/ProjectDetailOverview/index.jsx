@@ -1,13 +1,12 @@
 import React from "react";
 import {
-  ProjectDetailOverviewContainer,
+  ItemDetailOverviewContainer,
   Img,
-  ProjectInfo,
-  ProjectTitle,
-  Button,
+  ItemInfo,
   ButtonContainer,
   Description,
-} from "./styles";
+} from "../../styles/CommonStyledComponents";
+import { Button, ProjectTitle } from "./styles";
 import { GoRepo } from "react-icons/go";
 import { AiOutlineLink } from "react-icons/ai";
 
@@ -17,20 +16,23 @@ const ProjectDetailOverview = ({
   description,
   image,
   repo,
-  isPet,
+  companyLogo: CompanyLogo,
 }) => {
   const titleProject = title.split(" ");
-
+  const SIZE = "2.5rem";
   return (
-    <ProjectDetailOverviewContainer>
+    <ItemDetailOverviewContainer>
       <Img src={image} />
 
-      <ProjectInfo>
+      <ItemInfo>
         <ProjectTitle>
           <h1>
-            <span>{titleProject[0]}</span> {titleProject[1]}{" "}
-            <sup class={`projectFlag ${isPet ? "pet" : "real"}`}>
-              {isPet ? "PET" : "REAl"}
+            <span>{titleProject[0]}</span>{" "}
+            {titleProject.length > 1 && (
+              <> {titleProject.slice(1).join(" ")} </>
+            )}
+            <sup className={`projectFlag ${!CompanyLogo ? "pet" : "real"}`}>
+              {!CompanyLogo ? "PET" : <CompanyLogo size={SIZE} />}
             </sup>
           </h1>
 
@@ -42,18 +44,26 @@ const ProjectDetailOverview = ({
             ) : (
               ""
             )}
-            <Button href={preview} target="_blank" rel="noreferrer">
-              <span>Посетить </span>
-              <AiOutlineLink />
-            </Button>
+            {preview ? (
+              <Button href={preview} target="_blank" rel="noreferrer">
+                <span>Посетить</span>
+                <AiOutlineLink />
+              </Button>
+            ) : (
+              ""
+            )}
           </ButtonContainer>
         </ProjectTitle>
 
         <Description>
-          <p>{description}</p>
+          {typeof description === "string" ? (
+            <p> {description}</p>
+          ) : (
+            description
+          )}
         </Description>
-      </ProjectInfo>
-    </ProjectDetailOverviewContainer>
+      </ItemInfo>
+    </ItemDetailOverviewContainer>
   );
 };
 export default ProjectDetailOverview;

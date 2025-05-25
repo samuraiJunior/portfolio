@@ -57,7 +57,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1200px) {
     grid-template-columns: 1fr;
     /* centrar */
     justify-items: center;

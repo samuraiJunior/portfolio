@@ -24,7 +24,7 @@ const ProjectDetails = (props) => {
           <Return to="/">
             <span>
               <BiArrowBack />
-              <p>Back</p>
+              <p>Назад</p>
             </span>
           </Return>
 

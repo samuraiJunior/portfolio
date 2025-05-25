@@ -26,6 +26,10 @@ const Header = () => {
 
   const navItems = [
     {
+      name: "Места работы",
+      link: "job",
+    },
+    {
       name: "Скиллы",
       link: "skills",
     },
@@ -53,7 +57,7 @@ const Header = () => {
         {navItems.map(({ name, link }, index) => (
           <StyledLink
             to={link}
-            spy="true"
+            spy={true}
             offset={-170}
             duration={301}
             key={index}

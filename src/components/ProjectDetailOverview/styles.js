@@ -1,164 +1,75 @@
+
 import styled from 'styled-components';
+import { ItemTitle, LinkButton } from '../../styles/CommonStyledComponents';
 
-export const ProjectDetailOverviewContainer = styled.div`
-  width: 766px;
-  background: #1c1e20;
-  height: 100%;
-  max-height: 100vh;
-  min-height: 100vh;
-  border-radius: 10px;
-  cursor: default;
-  box-shadow: 0px 0px 5px 0px rgba(4, 229, 133, 0.3);
-  filter: drop-shadow(0px 0px 10px 0px rgba(0, 0, 0, 0.75));
-  display: flex;
-  flex-direction: column;
-
-  @media (max-width: 768px) {
-    width: 95%;
-    margin-bottom: 2rem;
-  }
-`;
-
-export const Img = styled.img`
-  width: calc(100% - 2rem);
-  max-width: 766px;
-  border-radius: 10px;
-  margin: 1rem 1rem 0 1rem;
-  max-height:374px;
-`;
-
-export const ProjectInfo = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
-
-  &::-webkit-scrollbar {
-    width: 0.3rem;
-  }
-`;
-
-export const Description = styled.div`
-  width: 100%;
-  height: 100%;
-  padding: 0 1rem;
-
-  p {
-    color: #ccc;
-    letter-spacing: 0.02rem;
-    word-spacing: 0.02rem;
-    font-size: 17px;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-    color: #03bd9a;
-  }
-
-  ul {
-    list-style-type: circle;
-    padding: 0;
-    margin-left: 2rem;
-
-    li {
-      margin-bottom: 0.5rem;
-      color: #ccc;
-
-      &::first-letter {
-        color: #03bd9a;
-        font-weight: bold;
-      }
-    }
-  }
-`;
-
-export const ProjectTitle = styled.div`
-  padding: 2rem 1rem 1rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #1c1e20;
-
+export const ProjectTitle = styled(ItemTitle)`
   h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #fff;
-
-    span {
-      color: #03bd9a;
-    }
-    .projectFlag{
+    .projectFlag {
       font-size: 21px;
-      &.pet{
+      position: absolute;
+      top: 15px;
+      &.pet {
         color: orange;
       }
-      &.real{
+      &.real {
         color: white;
         filter: drop-shadow(rgb(3, 189, 154) 0px 0px 0.2rem);
       }
     }
   }
-
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-  }
 `;
 
-export const ButtonContainer = styled.div`
-  display: flex;
-`;
-
-export const Button = styled.a`
-  text-decoration: none;
-  color: #fff;
-  padding: 0.8rem 1.2rem;
-  background: #fffff10;
-  margin-left: 1rem;
-  border-radius: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  border: 1px solid #03bd9a;
-  transition: 0.3s;
-  display: flex;
-  align-items: center;
-
-  svg {
-    margin-left: 10px;
-  }
-
+export const Button = styled(LinkButton)`
   ${(props) =>
     props.repo &&
     `
-    background: #03bd9a;
-    border: none;
+      background: #03bd9a;
+      border: none;
 
-    &:hover {
-      background: #04b391;
-    }
+      &:hover {
+        background: #04b391;
+      }
     `}
+`;
 
-  &:hover {
-    box-shadow: 0 0 0.2rem #03bd9a;
+export const ProjectDescription = styled.article`
+  color: #333;
+
+  section + section {
+    margin-top: 2.5rem;
   }
 
-  @media (max-width: 768px) {
-    padding: 0.5rem 1rem;
+  h2 {
+    color: #03bd9a;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eaeaea;
+  }
 
-    span {
-      display: none;
-    }
+  h3 {
+    color: #03bd9a;
+    font-size: 1.3rem;
+  }
 
-    svg {
-      margin: 0;
+  p {
+    font-size: 1.1rem;
+  }
+
+  ul {
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    
+    li {
+      color: #03bd9a;
+      margin-bottom: 0.5rem;
+      
+      strong {
+        color: #333;
+      }
     }
+  }
+
+  strong {
+    font-weight: 600;
   }
 `;

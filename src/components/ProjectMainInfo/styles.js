@@ -20,14 +20,23 @@ export const InfoContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: nowrap;
+  overflow: hidden;
 
   div {
     display: flex;
     justify-content: space-between;
+    gap: 15px;
+    min-width: 16rem;
+    a{
+    flex: 1;
+    button{
+    width: 100%
+    }
+    }
   }
+  
 
   p {
-    margin: 1rem 0;
     font-size: 18px;
     overflow: auto;
   }

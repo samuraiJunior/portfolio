@@ -5,7 +5,7 @@ import {
   SeeProjects,
   ButtonIcons,
   ButtonsContainer,
-  ButtonLinkedIn,
+  ButtonHH,
   Span,
   BoxSocial,
 } from './styles';
@@ -47,11 +47,11 @@ import { motion } from 'framer-motion';
             right: 100,
             bottom: 100,
           }}>
-          Front-end Developer
+          Middle Frontend Developer
         </motion.h4>
 
         <ButtonsContainer>
-          <SeeProjects to='projects' spy='true' smooth='true' offset={-70} duration={500}>
+          <SeeProjects to='projects' spy={true} smooth='true' offset={-70} duration={500}>
             <span>
              Мои проекты <MdArrowRightAlt size='32' />
             </span>
@@ -59,12 +59,12 @@ import { motion } from 'framer-motion';
 
           <BoxSocial>
             <a href='https://hh.ru/resume/98540dc7ff09b36cbc0039ed1f613434787946' target='_blank' rel='noreferrer'>
-              <ButtonLinkedIn>hh.ru</ButtonLinkedIn>
+              <ButtonHH>hh.ru</ButtonHH>
             </a>
 
             <a href='https://github.com/samuraiJunior' target='_blank' rel='noreferrer'>
               <ButtonIcons>
-                <AiFillGithub />
+                <AiFillGithub size={'3rem'}/>
               </ButtonIcons>
             </a> 
           </BoxSocial>

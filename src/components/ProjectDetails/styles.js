@@ -8,6 +8,7 @@ export const ProjectDetailsContainer = styled.div`
   margin-bottom: 3rem;
   height: 100%;
   max-height: 100vh;
+  padding-top: 5px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -19,7 +20,7 @@ export const ProjectDetailsContainer = styled.div`
     ids &&
     `
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     `}
 `;
 
@@ -40,6 +41,8 @@ export const Return = styled(Link)`
     max-width: 1200px;
     width: 100%;
     color: white;
+    z-index: 10;
+
 
     &:hover {
       color: #03bd9a;
