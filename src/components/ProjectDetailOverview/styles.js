@@ -6,8 +6,6 @@ export const ProjectTitle = styled(ItemTitle)`
   h1 {
     .projectFlag {
       font-size: 21px;
-      position: absolute;
-      top: 15px;
       &.pet {
         color: orange;
       }
