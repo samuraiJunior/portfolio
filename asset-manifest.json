@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.476a1ece.js",
+    "main.js": "/portfolio/static/js/main.b842e68a.js",
     "static/media/disney.png": "/portfolio/static/media/disney.bb6948a6f7535a7539da.png",
     "static/media/tilda lkp.png": "/portfolio/static/media/tilda lkp.ea6da223da077cb56440.png",
     "static/media/suda-suda.png": "/portfolio/static/media/suda-suda.7fead61ecdbf73c004e8.png",
@@ -12,9 +12,9 @@
     "static/media/SmartUnity.png": "/portfolio/static/media/SmartUnity.efaeb147dee5f090ef1d.png",
     "static/media/this-portfolio.png": "/portfolio/static/media/this-portfolio.065126852349651bb8a2.png",
     "index.html": "/portfolio/index.html",
-    "main.476a1ece.js.map": "/portfolio/static/js/main.476a1ece.js.map"
+    "main.b842e68a.js.map": "/portfolio/static/js/main.b842e68a.js.map"
   },
   "entrypoints": [
-    "static/js/main.476a1ece.js"
+    "static/js/main.b842e68a.js"
   ]
 }
