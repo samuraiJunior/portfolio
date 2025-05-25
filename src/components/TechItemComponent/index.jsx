@@ -1,6 +1,6 @@
 import React from 'react';
  const TechItemComponent = ({ TechItem, Icon, name, link, description }) => {
-  const SIZE = "3rem";
+  const SIZE = "2rem";
   return (
     <TechItem>
       <Icon size={SIZE}/>

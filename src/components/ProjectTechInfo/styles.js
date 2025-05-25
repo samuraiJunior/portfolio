@@ -14,6 +14,7 @@ export const TechInfoContainer = styled.div`
     margin: 0 15px 0 10px;
     position: relative;
     filter: drop-shadow(0 0 0.4rem #03bd9a);
+    flex-shrink: 0;
   }
 
   @media (max-width: 768px) {
